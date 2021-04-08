@@ -1,0 +1,134 @@
+/*#################################################
+Auteur:AGOUA YAO ANGE ALEX
+Date: mercredi 7 Avril 17:34:25 GMT  
+description: habillage du texte
+#################################################*/
+body 
+{
+	font: normal 11px "open sans", arial, sans-serif;
+	background: url("../images/corpsbg.png") repeat-x left top; 
+	color: #333333;
+	width: auto;
+}
+* {	
+	margin: 0;
+	padding: 0;
+}
+#blocEntete 
+{
+	height: 130px;
+	background-color: #ffffff;	
+}
+#entete
+{
+	position: relative;
+	text-align: left;
+	width: 980px;
+	margin: 0 auto;
+	padding: 30px 30px 0;
+}
+#entete h1
+{
+	display: block;
+	width: 0px;
+	float: left;
+}
+#blocSocialNetwork
+{
+	position: relative;
+	min-height: 64px;
+	width: 360px;
+	float: right;
+	padding: 0 10px 0;
+	font-size: 1.5em;
+}
+ul
+{
+	list-style-type: none;
+}
+#blocSocialNetwork li
+{
+	float: left;
+	margin-right: 10px;
+	width: auto;
+}
+#BlocNavPrincipale
+{
+	text-align: left;
+	min-height: 42px;
+	display: inline-block;
+	background: #009900 url("../images/navbg.png") repeat-x left top;
+	clear: both;
+	position: relative;
+	width: 100%;
+}
+#navPrincipale
+{
+	width: 980px;
+	text-align: left;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+}
+#navPrincipale li
+{
+	float: left;
+	margin: 0;
+	padding: 2px 48px;
+	position: relative;
+	background: url("../images/separator.png") no-repeat right top;
+	width: auto;
+}
+#navPrincipale li a
+{
+	color: #ffffff;
+	float: left;
+	height: 42px;
+	line-height: 42px;
+	margin: 0;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#navPrincipale li.last-li
+{
+	background: none;
+}
+#navPrincipale li:hover
+{
+	border-top: #ff9900 3px solid;
+	background: #ffffff;
+	color: #009900;	
+}
+#navPrincipale a:hover
+{
+	color: #009900;
+}
+#box1
+{
+	border: 1px solid;
+	background-color: #ffffff;
+	padding: 10px;
+	font-size: 2em;
+}
+img 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#box2
+{
+	border: 1px solid;
+	background-color: #ffffff;
+	padding: 10px;
+	font-size: 2em;
+}
+#box3
+{
+	border: 1px solid;
+	background-color: #ffffff;
+	padding: 10px;
+	font-size: 2em;
+}
